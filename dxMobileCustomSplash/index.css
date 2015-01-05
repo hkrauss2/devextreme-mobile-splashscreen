@@ -1,0 +1,38 @@
+html, 
+body,
+.dx-viewport {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a; /* Set the background to a dark color */
+}
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.splash-screen .splashy-message {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    font-size: 24px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #00aff0;
+    background: #00aff0;
+    color: white;
+    text-align: center;
+}
+
+.splash-screen .splashy-message h1 {
+    text-align: center;
+    margin-top: 1em;
+}
